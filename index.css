@@ -1,17 +1,28 @@
-.title {
+.welcome {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
-    font-size: 100px;
-    font-weight: 200;
+    font-size: 75px;
     color: white;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 .title-container {
     padding-top: 30px;
     padding-botton: 30px;
-    margin: -8px;
     background: url("images/sunset.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+.small-title {
+    text-align: center;
+    padding-top: 20px;
+}
+.img-container {
+    margin: 30px;
+    margin-left: 80px;
+    padding: 0;
+    height: 300px;
+    width: 450px;
+    border: 5px solid lightblue;
+    border-radius: 10px;
 }
