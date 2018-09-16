@@ -18,11 +18,11 @@
     padding-top: 20px;
 }
 .img-container {
-    margin: 30px;
-    margin-left: 80px;
+    margin: 50px;
+    margin-left: 50px;
     padding: 0;
-    height: 250px;
-    width: 375px;
+    height: auto;
+    width: 60%;
     border: 5px solid lightblue;
     border-radius: 10px;
 }
