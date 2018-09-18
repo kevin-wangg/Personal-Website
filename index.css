@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 75px;
     color: white;
-    margin-top: 180px;
+    margin-top: 200px;
 }
 .title-container {
     padding-top: 30px;
@@ -23,6 +23,6 @@
     padding: 0;
     height: auto;
     width: 60%;
-    border: 5px solid lightblue;
+    border: 5px solid #f45942;
     border-radius: 10px;
 }
