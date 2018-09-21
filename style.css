@@ -1,7 +1,7 @@
 .welcome {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
-    font-size: 75px;
+    font-size: 80px;
     color: white;
     margin-top: 200px;
 }
@@ -25,4 +25,11 @@
     width: 60%;
     border: 5px solid #f45942;
     border-radius: 10px;
+}
+
+.box {
+    background-color: rgb(247, 248, 249, 1);
+    border: 2px solid red;
+    border-radius: 5px;
+    min-height: 400px;
 }

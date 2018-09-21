@@ -1,4 +1,12 @@
+var allstrings = ["school", "extra", "sport"];
+
 function addClass(idName, className) {
+    for(var i = 0; i < allstrings.length; i++) {
+        if(allstrings[i] != idName) {
+            var other = document.getElementById(allstrings[i]);
+            other.classList.remove(className);
+        }
+    }
     var element = document.getElementById(idName);
     element.classList.add(className);
 }
