@@ -30,12 +30,12 @@
             </button>
         </div>
         <div class = "column has-text-centered">
-            <button class = "button is-large is-danger is-outlined" style = "width: 240px" onclick = "addClass('extra, is-active')">
+            <button class = "button is-large is-danger is-outlined" style = "width: 240px" onclick = "addClass('extra', 'is-active')">
                 EXTRACURRICULARS
             </button>
         </div>
         <div class = "column has-text-centered">
-            <button class = "button is-large is-danger is-outlined" style = "width: 240px" onclick = "clickSport()">
+            <button class = "button is-large is-danger is-outlined" style = "width: 240px" onclick = "addClass('sport', 'is-active')">
                 SPORTS
             </button>
         </div>
@@ -49,6 +49,24 @@
             </div>
         </div>
         <button class = "modal-close is-large" aria-label="close" onclick = "removeClass('school', 'is-active')"></button>
+    </div>
+    <div id = "extra" class = "modal">
+        <div class = "modal-background"></div>
+        <div class = "modal-content">
+            <div class = "box">
+
+            </div>
+        </div>
+        <button class = "modal-close is-large" aria-label="close" onclick = "removeClass('extra', 'is-active')"></button>
+    </div>
+    <div id = "sport" class = "modal">
+        <div class = "modal-background"></div>
+        <div class = "modal-content">
+            <div class = "box">
+
+            </div>
+        </div>
+        <button class = "modal-close is-large" aria-label="close" onclick = "removeClass('sport', 'is-active')"></button>
     </div>
 </body>
 </html>
