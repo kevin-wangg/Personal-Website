@@ -16,13 +16,14 @@
 
     <div class = "columns">
         <div class = "column">
-            <h2 class = "small-title subtitle is-2">ABOUT ME</h2>
-            <p style = "padding-left: 40px">Hey there, it's Kevin Wang. I'm a high school student currently attending Glenforest Secondary School in Mississauga, Ontario. Please hire me thanks!</p>
+            <h2 class = "small-title subtitle is-1">ABOUT ME</h2>
+            <p style = "padding-left: 40px; font-size: 25px">Hey there, it's Kevin Wang. I'm a high school student currently attending Glenforest Secondary School in Mississauga, Ontario. <br><br>Check out below to find out more about me!</p>
         </div>
         <div class = "column has-text-centered">
             <img class = "img-container" src="images/kevin.jpg" alt="Kevin Wang" height = "250" width = "375">
         </div>
     </div>
+    <hr>
     <div class = "columns">
         <div class = "column has-text-centered">
             <button class = "button is-large is-danger is-outlined" style = "width: 240px" onclick = "addClass('school', 'is-active')">
@@ -40,12 +41,29 @@
             </button>
         </div>
     </div>
-    <hr>
     <div id = "school" class = "modal">
         <div class = "modal-background"></div>
         <div class = "modal-content">
             <div class = "box">
-
+                <p>
+                    I am currently a Grade 12 student at Glenforest Secondary School.<br>
+                    Here are the some of my achievements over the past few years:<br>
+                    <br>
+                    <b>Academic Perfomance Award (Highest Mark in Course):</b>
+                    <ul>
+                        <li>Grade 9 Enhanced Math</li>
+                        <li>Grade 9 Enhanced Science</li>
+                        <li>Grade 10 Enhanced History</li>
+                        <li>Grade 10 Enhanced Science</li>
+                    </ul>
+                    <br>
+                    <b>Math Contests:</b>
+                    <ul>
+                        <li>Distinction - Fermat Contest</li>
+                        <li>Distinction - Hypatia Contest</li>
+                        <li>School Champion - Hypatia Contest</li>
+                    </ul>
+                </p>
             </div>
         </div>
         <button class = "modal-close is-large" aria-label="close" onclick = "removeClass('school', 'is-active')"></button>
